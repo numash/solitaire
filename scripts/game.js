@@ -4,5 +4,5 @@ var cards = [];
 
 var myPage = new Page({
     element: document.querySelector('[data-component="page"]'),
-    cards: cards
+    //cards: cards
 });
