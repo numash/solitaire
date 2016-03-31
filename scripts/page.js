@@ -9,7 +9,7 @@ class Page{
             element: this._el.querySelector('[data-component="deck"]')
         });
         
-        this.deck = new DeckCards({
+        this.deckCards = new DeckCards({
             element: this._el.querySelector('[data-component="deckCards"]')
         });
         
@@ -18,7 +18,8 @@ class Page{
         });
         
         this.solitaire = new Solitaire({
-            element: this._el.querySelector('[data-component="solitaire"]')
+            element: this._el.querySelector('[data-component="solitaire"]'),
+            cards: this._cards
         });
     }
 }

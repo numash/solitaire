@@ -1,8 +1,9 @@
 #page{
     position: static;
     width: 1000px;
+    height: 700px;
     border: 2px solid #2E8B57;
-    margin: 45px;
+    margin: 35px;
     background-color: #98FB98;
 }
 
@@ -11,6 +12,7 @@
     height: 125px;
     width: 90px;
     position: relative;
+    /*border: 2px solid #2E8B57;*/
     background-image: url("../images/shirt.jpg");
     background-size: 90px 125px;
     background-repeat: no-repeat;
@@ -21,7 +23,7 @@
 }
 
 #deckCards{
-   display: inline-block;
+    display: inline-block;
     height: 125px;
     width: 90px;
     margin-top: 35px;
@@ -37,7 +39,7 @@
     float: right;
 }
 
-.resultDiv{
+.cardSpace{
     display: inline-block;
     height: 125px;
     width: 90px;
@@ -49,13 +51,17 @@
     border: 2px solid #2E8B57;
 }
 
-.smallDecks{
+.closedCards{
     display: inline-block;
+    background-image: url("../images/shirt.jpg");
+}
+
+.card{
+    position: absolute;
     height: 125px;
     width: 90px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 2px solid #2E8B57;
+    background-size: 90px 125px;
+    background-repeat: no-repeat;
 }
 
 #solitaire{

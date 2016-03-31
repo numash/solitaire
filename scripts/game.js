@@ -2,6 +2,6 @@
 
 var myPage = new Page({
     element: document.querySelector('[data-component="page"]'),
-    cards: generateCards()
+    cards: CardsGenerator.generateCards(document.querySelector('[data-component="page"]'))
 });
 
