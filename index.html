@@ -10,17 +10,20 @@
 		<script type="text/javascript" src="scripts/deckCards.js" defer></script>
 		<script type="text/javascript" src="scripts/resultCards.js" defer></script>
 		<script type="text/javascript" src="scripts/solitaire.js" defer></script>
+		<script type="text/javascript" src="scripts/cards.js" defer></script>
 		<script type="text/javascript" src="scripts/page.js" defer></script>
 		<script type="text/javascript" src="scripts/game.js" defer></script>
 	</head>
 	<body>
-		<div data-component="page" id="page">
-			<div>
-				<div data-component="deck" id="deck"></div>
-				<div data-component="deckCards" id="deckCards"></div>
-				<div data-component="result-cards" id="resultCards"></div>
+		<div data-component="page" id="page" class='panel panel-default'>
+			<div class="panel-body">
+				<div>
+					<div data-component="deck" id="deck"></div>
+					<div data-component="deckCards" id="deckCards"></div>
+					<div data-component="result-cards" id="resultCards"></div>
+				</div>
+				<div data-component="solitaire" id="solitaire" class='row' ></div>
 			</div>
-			<div data-component="solitaire" id="solitaire"></div>
 		</div>
 	</body>
 </html>

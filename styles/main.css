@@ -1,5 +1,6 @@
 #page{
     position: static;
+    width: 1000px;
     border: 2px solid #2E8B57;
     margin: 45px;
     background-color: #98FB98;
@@ -20,22 +21,20 @@
 }
 
 #deckCards{
-    display: inline-block;
+   display: inline-block;
     height: 125px;
     width: 90px;
-    position: relative;
-    background-image: url("../images/shirt.jpg");
-    background-size: 90px 125px;
-    background-repeat: no-repeat;
     margin-top: 35px;
     margin-bottom: 35px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #resultCards{
     display: inline-block;
     position: static;
-    margin-left: 30%;
+    margin-right: 40px;
+    float: right;
 }
 
 .resultDiv{
@@ -61,6 +60,8 @@
 
 #solitaire{
     display:inline-block;
+    margin-right: 35px;
+    float: right;
 }
 
 body{

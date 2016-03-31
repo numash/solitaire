@@ -8,6 +8,5 @@ class Deck{
     }
 
     _onDeckClick(event){
-        
     };
 }

@@ -8,7 +8,7 @@ class Solitaire{
         
         for (var i = 0; i < SMALL_DECK_NUMBER; i++){
             var div = document.createElement("div");
-            div.className = "col-md-10 smallDecks";
+            div.className = "smallDecks";
             this._el.appendChild(div);
         }
     }
